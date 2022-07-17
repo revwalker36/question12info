@@ -9,7 +9,7 @@
 raw <- read.csv("data/pew.csv", check.names = F)
 
 head(raw)
-
+#Annotation right here
 library(reshape2)
 tidy <- melt(raw, id = "religion")
 
